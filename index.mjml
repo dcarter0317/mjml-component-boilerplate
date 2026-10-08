@@ -1,26 +1,31 @@
+<!-- index.mjml -->
 <mjml>
-  <mj-body>
+  <mj-head>
+    <mj-include path="./styles.mjml" />
+  </mj-head>
 
-    <!-- The first component, mj-basic-component renders as a column child -->
-    <mj-section>
-      <mj-column>
-        <mj-basic-component color="green">
-          I'm among stars
-        </mj-basic-component>
+  <mj-body background-color="#eef2f5">
+    <!-- 2. Pull in your Reusable Header -->
+    <mj-include path="./components/header/header-dark.mjml" />
+
+    <!-- 3. Main Email Body Content -->
+    <mj-section padding="40px 20px">
+      <mj-column width="100%">
+        <mj-text font-size="24px" mj-class="header-elem" font-weight="bold" padding-bottom="15px">
+          Hello World
+        </mj-text>
+        <mj-text font-size="16px" line-height="24px" padding-bottom="25px">
+          This email template uses modular header and footer blocks. By editing the 'header.mjml' or 'footer.mjml' files directly, the changes will apply across all emails referencing them.
+        </mj-text>
+
+        <!-- Using a button component styled by the styleguide -->
+        <mj-button mj-class="primary-btn" href="#">
+          Get Started
+        </mj-button>
       </mj-column>
     </mj-section>
 
-    <!-- The second component, mj-image-text renders as a section -->
-    <mj-image-text background-color="#DD685B" image-src="https://mjml.io/assets/img/mjml-logo.png" image-width="100px" font-size="24px" image-position="left">
-      MJML rules! hello modified
-    </mj-image-text>
-
-    <!-- The third component, mj-layout, also renders as a section -->
-    <mj-layout>
-      <mj-text color="blue" font-size="10px">
-        A super nice layout component
-      </mj-text>
-    </mj-layout>
-
+    <!-- 4. Pull in your Reusable Footer -->
+    <mj-include path="./components/footer/footer-dark.mjml" />
   </mj-body>
 </mjml>

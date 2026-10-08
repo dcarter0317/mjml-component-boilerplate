@@ -1,0 +1,8 @@
+<mj-section mj-class="header-section">
+  <mj-column mj-class="header-col">
+    <mj-image mj-class="header-logo" src="https://res.cloudinary.com/wm6ofka9/image/upload/v1791393544/logo2x.png" alt="TaskCurrent" />
+  </mj-column>
+  <mj-column mj-class="header-col">
+    <mj-button mj-class="primary-link" href="#">View in browser</mj-button>
+  </mj-column>
+</mj-section>

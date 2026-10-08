@@ -1,0 +1,8 @@
+{
+  "mjml.autoPreview": true,
+  "mjml.updateWhenTyping": true,
+  "mjml.lintEnable": true,
+  "mjml.lintWhenTyping": true,
+  "mjml.allowIncludes": true,
+  "mjml.includePath": ["components"]
+}

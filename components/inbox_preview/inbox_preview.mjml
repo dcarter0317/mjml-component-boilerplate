@@ -1,0 +1,25 @@
+<mjml>
+   <mj-head>
+     <mj-include path="./styles.mjml" />
+   </mj-head>
+    <mj-body>
+        <mj-section border="1px solid #E4E7EC" border-radius="12px">
+           <mj-column width="40px" background-color="#5267FF" border-radius="50%" vertical-align="middle">
+              <mj-text color="#F8FAFC" align="center" padding="0" height="40px" line-height="40px">
+                T
+             </mj-text>
+           </mj-column>
+           <mj-column width="85%">
+              <mj-text font-weight="500" padding-bottom="0">
+                TaskCurrent
+              </mj-text>
+              <mj-text font-weight="500">
+                You’re on the TaskCurrent early-access list
+              </mj-text>
+              <mj-text font-weight="300" color="#667085">
+                Thanks for joining. We’ll let you know when access opens.
+              </mj-text>
+           </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>

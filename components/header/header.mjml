@@ -1,8 +1,14 @@
-<mj-section mj-class="header-section">
+<mj-section mj-class="header-section" css-class="hdr">
   <mj-column mj-class="header-col">
-    <mj-image mj-class="header-logo" src="https://res.cloudinary.com/wm6ofka9/image/upload/v1791393544/logo2x.png" alt="TaskCurrent" />
+    <mj-text padding="0" css-class="hdr-logo">
+      <picture>
+        <source srcset="https://res.cloudinary.com/wm6ofka9/image/upload/v1791393544/logo_light2x.png" media="(prefers-color-scheme: dark)">
+        <img src="https://res.cloudinary.com/wm6ofka9/image/upload/v1791393544/logo2x.png" alt="TaskCurrent" width="150" style="display:block;width:150px;max-width:100%;height:auto;border:0;">
+      </picture>
+    </mj-text>
   </mj-column>
   <mj-column mj-class="header-col">
-    <mj-button mj-class="primary-link" href="#">View in browser</mj-button>
+    <!-- TODO: placeholder URL. Replace with the ESP's web-version merge tag (e.g. *|ARCHIVE|* for Mailchimp) once an ESP is chosen. -->
+    <mj-button mj-class="primary-link" css-class="hdr-link" href="https://example.com/view-in-browser" target="_blank">View in browser</mj-button>
   </mj-column>
 </mj-section>

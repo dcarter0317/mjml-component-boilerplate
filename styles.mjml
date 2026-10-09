@@ -3,6 +3,18 @@
     <!-- <mj-font name="Open Sans" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" /> -->
 
     <!-- 1. Define your Global Styleguide Components -->
+    <mj-style>
+      :root { color-scheme: light dark; supported-color-schemes: light dark; }
+      @media (prefers-color-scheme: dark) {
+        .hdr, .hdr > table, .hdr > div, .hdr > div > table, .hdr td,
+        .ftr, .ftr > table, .ftr > div, .ftr > div > table, .ftr td { background-color: #101828 !important; }
+        .hdr-link a, .hdr-link td { color: #98A2B3 !important; }
+        .ftr-head div { color: #E4E9F0 !important; }
+        .ftr-link a { color: #E4E9F0 !important; }
+        .ftr-hr p { border-top-color: #667085 !important; }
+      }
+    </mj-style>
+
     <mj-attributes>
       <!-- Base elements reset -->
       <mj-all font-family="Geist, Helvetica, Arial, sans-serif" color="#667085" />
@@ -21,17 +33,12 @@
       <mj-class name="primary-btn" background-color="#5267FF" color="#ffffff" font-size="16px" line-height="16px" border-radius="10px" border="1px solid #E4E9F0" />
       <mj-class name="primary-link" align="right" font-size="13px" font-weight="400" color="#667085" background-color="transparent" text-decoration="underline" padding="0" inner-padding="0" />
       <mj-class name="header-section" background-color="#F8FAFC" padding="16px 24px" />
-      <mj-class name="header-section-dark" background-color="#101828" padding="16px 24px" />
       <mj-class name="header-logo" align="left" width="150px" padding="0" />
       <mj-class name="header-col" width="50%" vertical-align="middle" />
       <mj-class name="footer-section" background-color="#F8FAFC" padding="24px 12px" color="#98A2B3" />
-      <mj-class name="footer-section-dark" background-color="#101828" padding="16px 24px" color="#98A2B3" />
       <mj-class name="footer-header" font-size="15px" color="#101828" font-weight="600" text-transform="capitalize" padding-bottom="5px" />
-      <mj-class name="footer-header-dark" font-size="15px" color="#E4E9F0" font-weight="600" text-transform="capitalize" padding-bottom="5px" />
       <mj-class name="footer-body" font-size="13px" line-height="20px" font-weight="200" color="#667085" />
-      <mj-class name="footer-link" color="#101828" font-size="14px" text-decoration="underline" line-height="20px" text-transform="capitalize" font-weight="300" padding="0 16px 0 0" />
-      <mj-class name="footer-link-dark" color="#E4E9F0" font-size="14px" text-decoration="underline" line-height="20px" text-transform="capitalize" font-weight="300" padding="0 16px 0 0" />
+      <mj-class name="footer-link" color="#101828" font-size="14px" text-decoration="underline" line-height="20px" text-transform="capitalize" font-weight="300" padding="0 16px 0 0" />   
       <mj-class name="footer-hr" border-color="#cccccc" border-style="solid" border-width="1px" padding-top="20px" padding-bottom="20px" />
-      <mj-class name="footer-hr-dark" border-color="#667085" border-style="solid" border-width="1px" padding-top="20px" padding-bottom="20px" />
       <mj-class name="footer-navbar" align="left" padding="0 25px" />
     </mj-attributes>

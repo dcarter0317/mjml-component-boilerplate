@@ -3,10 +3,11 @@
   <mj-head>
     <mj-include path="./styles.mjml" />
   </mj-head>
+  <mj-title>TaskCurrent Early Access Confirmation</mj-title>
 
   <mj-body background-color="#eef2f5">
     <!-- 2. Pull in your Reusable Header -->
-    <mj-include path="./components/header/header-dark.mjml" />
+    <mj-include path="./components/header/header.mjml" />
 
     <!-- 3. Main Email Body Content -->
     <mj-section padding="40px 20px">
@@ -26,6 +27,6 @@
     </mj-section>
 
     <!-- 4. Pull in your Reusable Footer -->
-    <mj-include path="./components/footer/footer-dark.mjml" />
+    <mj-include path="./components/footer/footer.mjml" />
   </mj-body>
 </mjml>

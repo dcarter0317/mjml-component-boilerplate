@@ -1,6 +1,8 @@
+<mjml>
+<mj-head>
   <mj-font name="Geist Mono" href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;700&display=swap" />
   <mj-font name="Geist" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;600;700&display=swap" />
-    <!-- <mj-font name="Open Sans" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" /> -->
+  <mj-font name="Open Sans" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" />
 
     <!-- 1. Define your Global Styleguide Components -->
     <mj-style>
@@ -10,31 +12,36 @@
         .ftr, .ftr > table, .ftr > div, .ftr > div > table, .ftr td { background-color: #101828 !important; }
         .hdr-link a, .hdr-link td { color: #98A2B3 !important; }
         .ftr-head div { color: #E4E9F0 !important; }
-        .ftr-link a { color: #E4E9F0 !important; }
+        .ftr-link, a.ftr-link, .ftr-link a, .ftr a.mj-link { color: #FFFFFF !important; background-color: transparent !important; }
         .ftr-hr p { border-top-color: #667085 !important; }
       }
     </mj-style>
 
     <mj-attributes>
       <!-- Base elements reset -->
-      <mj-all font-family="Geist, Helvetica, Arial, sans-serif" color="#667085" />
+      <mj-all font-family="Geist, 'Open Sans', Helvetica, Arial, sans-serif" color="#667085" />
   
       
       <!-- Custom styleguide classes (mj-class) -->
       <mj-class name="color-brand" color="#5267FF" />
       <mj-class name="bg-surface" background-color="#eef2f5" />
-      <mj-class name="headline" font-size="32px" line-height="40px" />
+      <mj-class name="headline" font-size="32px" line-height="40px" font-weight="600" color="#101828"  />
       <mj-class name="section-header" font-size="20px" line-height="28px" font-weight="semibold" />
       <mj-class name="eyebrow" font-size="12px" line-height="18px" font-weight="600" text-transform="uppercase" letter-spacing="0.8px" />
-      <mj-class name="mono" font-family="Geist Mono, monospace" />
+      <mj-class name="mono" font-family="'Geist Mono', Menlo, Consolas, monospace" />
       <mj-class name="header-elem" color="#101828" />
       <mj-class name="brand-text" font-weight="600" color="#007bff" letter-spacing="1px" />
       <mj-class name="footer-text" font-size="12px" color="#777777" line-height="16px" />
-      <mj-class name="primary-btn" background-color="#5267FF" color="#ffffff" font-size="16px" line-height="16px" border-radius="10px" border="1px solid #E4E9F0" />
-      <mj-class name="primary-link" align="right" font-size="13px" font-weight="400" color="#667085" background-color="transparent" text-decoration="underline" padding="0" inner-padding="0" />
+      <mj-class name="btn-primary" background-color="#5267FF" color="#ffffff" font-size="16px" line-height="16px" font-weight="600" border-radius="10px" border="1px solid #5267FF" inner-padding="12px 24px" />
+      <mj-class name="btn-secondary" background-color="#ffffff" color="#101828" font-size="16px" line-height="16px" font-weight="600" border-radius="10px" border="1px solid #E4E9F0" inner-padding="12px 0" />
+      <mj-class name="btn-tertiary" background-color="#ffffff" color="#101828" font-size="16px" line-height="16px" font-weight="600" border-radius="10px" border="none" inner-padding="12px 0" />
+      <mj-class name="btn-link" background-color="transparent" color="#5267FF" font-size="16px" line-height="16px" font-weight="600" border="none" inner-padding="12px 0" />
+      <mj-class name="btn-icon" background-color="transparent" color="#5267FF" font-size="16px" line-height="16px" font-weight="600" border="none" inner-padding="12px 0" />
+      <mj-class name="primary-link" align="right" font-size="13px" font-weight="400" color="#667085" background-color="transparent" text-decoration="underline" padding="0" inner-padding="12px 0" />
       <mj-class name="header-section" background-color="#F8FAFC" padding="16px 24px" />
       <mj-class name="header-logo" align="left" width="150px" padding="0" />
       <mj-class name="header-col" width="50%" vertical-align="middle" />
+      <mj-class name="body-text" color="#667085" font-size="16px" line-height="26px" font-weight="300" />
       <mj-class name="footer-section" background-color="#F8FAFC" padding="24px 12px" color="#98A2B3" />
       <mj-class name="footer-header" font-size="15px" color="#101828" font-weight="600" text-transform="capitalize" padding-bottom="5px" />
       <mj-class name="footer-body" font-size="13px" line-height="20px" font-weight="200" color="#667085" />
@@ -42,3 +49,5 @@
       <mj-class name="footer-hr" border-color="#cccccc" border-style="solid" border-width="1px" padding-top="20px" padding-bottom="20px" />
       <mj-class name="footer-navbar" align="left" padding="0 25px" />
     </mj-attributes>
+</mj-head>
+</mjml>

@@ -1,4 +1,5 @@
 <mj-section mj-class="header-section" css-class="hdr">
+  <mj-group>
   <mj-column mj-class="header-col">
     <mj-text padding="0" css-class="hdr-logo">
       <picture>
@@ -9,6 +10,7 @@
   </mj-column>
   <mj-column mj-class="header-col">
     <!-- TODO: placeholder URL. Replace with the ESP's web-version merge tag (e.g. *|ARCHIVE|* for Mailchimp) once an ESP is chosen. -->
-    <mj-button mj-class="primary-link" css-class="hdr-link" href="https://example.com/view-in-browser" target="_blank">View in browser</mj-button>
+    <mj-button mj-class="primary-link" css-class="hdr-link" href="#" target="_blank">View in browser</mj-button>
   </mj-column>
+  </mj-group>
 </mj-section>

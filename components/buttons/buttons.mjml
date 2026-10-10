@@ -1,0 +1,17 @@
+<mj-section background-color="#F8FAFC">
+  <mj-column width="50%">
+    <mj-button mj-class="btn-primary" href="#">Explore TaskCurrent</mj-button>
+  </mj-column>
+  <mj-column width="50%">
+    <mj-button mj-class="btn-secondary" href="#">Explore TaskCurrent</mj-button>
+  </mj-column>
+  <mj-column width="50%">
+    <mj-button mj-class="btn-link" href="#">Explore TaskCurrent</mj-button>
+  </mj-column>
+  <mj-column width="50%">
+    <mj-button mj-class="btn-tertiary" href="#">Explore TaskCurrent</mj-button>
+  </mj-column>
+  <mj-column width="50%">
+    <mj-button mj-class="btn-icon" href="#">Book a Demo &#8594;</mj-button>
+  </mj-column>
+</mj-section>

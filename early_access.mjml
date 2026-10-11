@@ -1,0 +1,95 @@
+<mjml>
+  <mj-head>
+    <mj-title>TaskCurrent Early Access Confirmation</mj-title>
+    <mj-preview>TaskCurrent Early Access Confirmation</mj-preview>
+    <mj-include path="./styles.mjml" />
+    <mj-style>
+      @media (max-width: 479px) {
+        td.cta { text-align: center !important; }
+        td.cta > table { margin: 0 auto !important; }
+      }
+    </mj-style>
+  </mj-head>z
+
+  <mj-body background-color="#eef2f5">
+    <!-- 2. Pull in your Reusable Header -->
+    <mj-include path="./components/header/header.mjml" />
+
+    <!-- 3. Main Email Body Content -->
+    <mj-wrapper mj-class="card">
+      <!-- Pill element -->
+      <mj-section mj-class="body-section" padding="24px 24px 0" text-align="left">
+        <mj-column width="100%">
+          <mj-text mj-class="pill-text" padding="0">
+            <span class="pill"><img class="pill-icon" src="https://res.cloudinary.com/wm6ofka9/image/upload/v1791569130/icon-check2x.png" width="16" height="16" alt="" />Signup confirmed</span>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section mj-class="body-section" padding="16px 24px 0">
+        <mj-column width="100%">
+          <mj-text mj-class="headline" padding="0">
+            You&#39;re on the early-access list.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section mj-class="body-section" padding="16px 24px">
+        <mj-column width="100%">
+          <mj-text mj-class="body-text greeting" padding="0 0 16px">Hi <span class="var">There</span>,</mj-text>
+          <mj-text mj-class="body-text" padding="0 0 16px">Thanks for joining the TaskCurrent early-access list.</mj-text>
+          <mj-text mj-class="body-text" padding="0 0 16px">We’re building TaskCurrent to help small teams spend less time on repetitive work like lead follow-up, scheduling, customer onboarding, and routine handoffs.</mj-text>
+          <mj-text mj-class="body-text" padding="0">We’ll let you know when early access opens.</mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section mj-class="body-section" padding="8px 24px">
+        <mj-column mj-class="steps-panel" width="100%">
+          <mj-text mj-class="steps-heading" padding="0 0 16px">What happens next</mj-text>
+          <mj-table padding="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="24" valign="top" class="step-icon"><img src="https://res.cloudinary.com/wm6ofka9/image/upload/v1791569130/icon-check2x.png" width="24" height="24" alt="" style="display:block;border:0;" /></td>
+              <td valign="top" class="step-copy">
+                <div class="step-title">You joined the list</div>
+                <div class="step-meta">Today</div>
+              </td>
+            </tr>
+            <tr>
+              <td width="24" valign="top" class="step-icon"><img src="https://res.cloudinary.com/wm6ofka9/image/upload/v1791393538/icon_numbertwo2x.png" width="24" height="24" alt="" style="display:block;border:0;" /></td>
+              <td valign="top" class="step-copy">
+                <div class="step-title">A few examples of what TaskCurrent can automate</div>
+                <div class="step-meta">In a couple of days</div>
+              </td>
+            </tr>
+            <tr>
+              <td width="24" valign="top" class="step-icon step-last"><img src="https://res.cloudinary.com/wm6ofka9/image/upload/v1791393538/icon_numberthree2x.png" width="24" height="24" alt="" style="display:block;border:0;" /></td>
+              <td valign="top" class="step-copy step-last">
+                <div class="step-title">Your invite, as soon as early access opens</div>
+                <div class="step-meta">When access opens</div>
+              </td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+      <!-- CTAs: columns stack on mobile -->
+      <mj-section mj-class="body-section" padding="24px 24px 8px" text-align="left">
+        <mj-column width="208px" padding-bottom="8px">
+          <mj-button mj-class="btn-primary" align="left" padding="0" css-class="cta" href="taskcurrent.vercel.app/?utm_source=taskcurrent_email&utm_medium=email&utm_campaign=early_access_confirmation&utm_content=primary_cta">Explore TaskCurrent</mj-button>
+        </mj-column>
+        <mj-column width="160px">
+          <mj-button mj-class="btn-icon" align="left" padding="0 0 0 15px" css-class="cta" href="/demo?…&utm_content=secondary_cta">Book a Demo &#8594;</mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section mj-class="body-section" padding="16px 24px 24px">
+        <mj-column width="100%">
+          <mj-text mj-class="body-text" padding="0 0 4px">Talk soon,</mj-text>
+          <mj-text mj-class="body-text" padding="0">The TaskCurrent team</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <!-- 4. Pull in your Reusable Footer -->
+    <mj-include path="./components/footer/footer.mjml" />
+  </mj-body>
+</mjml>

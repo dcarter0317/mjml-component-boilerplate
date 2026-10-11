@@ -1,7 +1,7 @@
 <mjml>
   <mj-head>
-    <mj-title>TaskCurrent Product Information</mj-title>
-    <mj-preview>TaskCurrent Product Information</mj-preview>
+    <mj-title>TaskCurrent Early Access Product Introduction</mj-title>
+    <mj-preview>TaskCurrent Early Access Product Introduction</mj-preview>
     <mj-include path="./styles.mjml" />
     <mj-style>
       @media (max-width: 479px) {
@@ -20,8 +20,8 @@
       <!-- Pill element -->
       <mj-section mj-class="body-section" padding="24px 24px 0" text-align="left">
         <mj-column width="100%">
-          <mj-text mj-class="pill-text" padding="0">
-            <span class="pill"><img class="pill-icon" src="https://res.cloudinary.com/wm6ofka9/image/upload/v1791569130/icon-check2x.png" width="16" height="16" alt="" />Signup confirmed</span>
+          <mj-text mj-class="eyebrow-text" color="#5267FF" padding="0">
+            Early access · What’s possible
           </mj-text>
         </mj-column>
       </mj-section>

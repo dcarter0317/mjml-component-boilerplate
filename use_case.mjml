@@ -1,0 +1,92 @@
+<mjml>
+  <mj-head>
+    <mj-title>TaskCurrent Use Case</mj-title>
+    <mj-preview>TaskCurrent Use Case</mj-preview>
+    <mj-include path="./styles.mjml" />
+    <mj-style>
+      @media (max-width: 479px) {
+        td.cta { text-align: center !important; }
+        td.cta > table { margin: 0 auto !important; }
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#eef2f5">
+    <!-- 2. Pull in your Reusable Header -->
+    <mj-include path="./components/header/header.mjml" />
+
+    <!-- 3. Main Email Body Content -->
+    <mj-wrapper mj-class="card">
+      <!-- Pill element -->
+      <mj-section mj-class="body-section" padding="24px 24px 0" text-align="left">
+        <mj-column width="100%">
+          <mj-text mj-class"eyebrow-text" color="#5267FF" padding="0">
+            Your first workflow
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section mj-class="body-section" padding="16px 24px 0">
+        <mj-column width="100%">
+          <mj-text mj-class="headline" padding="0">
+            What would you automate first?
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section mj-class="body-section" padding="16px 24px">
+        <mj-column width="100%">
+          <mj-text mj-class="body-text greeting" padding="0 0 16px">Hi <span class="var">There</span>,</mj-text>
+          <mj-text mj-class="body-text" padding="0 0 16px">When you joined the early-access list, you told us where repetitive work slows your team down. Here’s one way TaskCurrent could simplify it.</mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section mj-class="body-section" padding="8px 24px">
+        <mj-column mj-class="steps-panel" width="100%">
+          <mj-text mj-class="steps-section" padding="0 0 16px">You told us</mj-text>
+          <mj-text mj-class="steps-heading step-header" font-weight="500" font-size="17px" line-height="26px" padding="0 0 8px">Lead follow-up is your biggest automation need.</mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Example workflow card: header + infographic share one rounded #F0F2F7 surface -->
+      <mj-section mj-class="body-section" padding="8px 0 0">
+        <mj-column width="100%" padding="0 24px" inner-background-color="#F0F2F7" inner-border-radius="8px 8px 0 0">
+          <mj-text padding="14px 20px 6px">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+              <tr>
+                <td align="left" valign="middle" class="eyebrow-text" style="font-size:12px;line-height:18px;font-weight:600;letter-spacing:0.6px;text-transform:uppercase;color:#475467;">Example workflow</td>
+                <td align="right" valign="middle" class="steps-body" style="font-size:15px;line-height:24px;font-weight:300;color:#667085;">Lead follow-up</td>
+              </tr>
+            </table>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section mj-class="body-section" padding="0 0 8px">
+        <mj-column width="100%" padding="0 24px" inner-background-color="#F0F2F7" inner-border-radius="0 0 8px 8px">
+          <mj-text padding="0 16px 16px">
+            <picture>
+              <source srcset="https://res.cloudinary.com/wm6ofka9/image/upload/v1791748178/lead_followup_dynamic_workflow2x_mobile.png" media="(max-width: 480px)">
+              <img src="https://res.cloudinary.com/wm6ofka9/image/upload/v1791748178/lead_followup_dynamic_workflow2x.png" alt="Lead follow-up workflow: website inquiry, qualify lead, add to CRM, send follow-up, create sales task" width="470" style="display:block;width:100%;max-width:100%;height:auto;border:0;">
+            </picture>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- CTAs: columns stack on mobile -->
+      <mj-section mj-class="body-section" padding="24px 24px 8px" text-align="left">
+        <mj-column width="308px" padding-bottom="8px">
+          <mj-button mj-class="btn-primary" align="left" padding="0" css-class="cta" href="taskcurrent.vercel.app/?utm_source=taskcurrent_email&utm_medium=email&utm_campaign=early_access_confirmation&utm_content=primary_cta">See How TaskCurrent Works</mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section mj-class="body-section" padding="16px 24px 24px">
+        <mj-column width="100%">
+          <mj-text mj-class="body-text" padding="0 0 4px">Talk soon,</mj-text>
+          <mj-text mj-class="body-text" padding="0">The TaskCurrent team</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <!-- 4. Pull in your Reusable Footer -->
+    <mj-include path="./components/footer/footer.mjml" />
+  </mj-body>
+</mjml>

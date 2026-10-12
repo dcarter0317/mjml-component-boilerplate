@@ -20,6 +20,7 @@
     <!-- Inlined so classes survive clients that strip <style> (used inside raw HTML: pill, steps) -->
     <mj-style inline="inline">
       .pill { display: inline-block; background-color: #EEF0FF; border-radius: 50px; padding: 8px 14px 8px 12px; }
+      .pill-upcoming { background-color: #FEF3DC; color: #B54708; }
       .pill-icon { vertical-align: middle; border: 0; margin-right: 6px; }
       .var { color: #5267FF; }
       .step-icon { padding: 0 12px 16px 0; }
@@ -28,6 +29,13 @@
       .step-title { font-size: 16px; line-height: 24px; color: #101828; }
       .step-num { font-size: 14px; line-height: 24px; font-weight: 600; color: #5267FF; }
       .step-meta { font-size: 12px; line-height: 20px; color: #667085; font-weight: 300; }
+      .schedule-badge { width: 64px; border: 1px solid #E4E9F0; border-radius: 12px; border-collapse: separate; background-color: #ffffff; text-align: center; }
+      .schedule-month { background-color: #5267FF; color: #ffffff; font-size: 11px; line-height: 16px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; text-align: center; padding: 3px 0; border-radius: 11px 11px 0 0; }
+      .schedule-day { color: #101828; font-size: 24px; line-height: 32px; font-weight: 700; text-align: center; padding: 6px 0 8px; border-radius: 0 0 11px 11px; }
+      .schedule-title { color: #101828; font-size: 18px; line-height: 26px; font-weight: 600; padding: 0 0 4px 0; }
+      .schedule-meta { color: #667085; font-size: 14px; line-height: 22px; font-weight: 300; padding: 0; }
+      .schedule-icon { width: 24px; line-height: 0; font-size: 0; vertical-align: middle; }
+      .schedule-icon img { display: block; width: 14px; height: 22px; border: 0; }
     </mj-style>
 
     <mj-attributes>
@@ -63,7 +71,8 @@
       <mj-class name="pill-text" font-size="14px" line-height="16px" font-weight="600" color="#5267FF" />
       <mj-class name="greeting" color="#101828" font-weight="400" />
       <mj-class name="steps-panel" background-color="#F0F2F7" border-radius="8px" padding="20px" />
-      <mj-class name="step-header" font-size="19px" line-height="26px" font-weight="600" color="#101828" />
+      <mj-class name="schedule-card" background-color="#ffffff" inner-border="1px solid #E4E9F0" inner-border-radius="12px" padding="0" />
+      <mj-class name="step-header"font-size="19px" line-height="26px" font-weight="600" color="#101828" />
       <mj-class name="steps-body" font-size="15px" line-height="24px"font-weight="300" color="#667085" />
       <mj-class name="steps-section" font-size="12px" line-height="16px" font-weight="600" text-transform="uppercase" letter-spacing="0.8px" color="#5267FF" />
       <mj-class name="footer-section" background-color="#F8FAFC" padding="24px 12px" color="#98A2B3" />

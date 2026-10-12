@@ -1,7 +1,7 @@
 <mjml>
   <mj-head>
-    <mj-title>TaskCurrent Demo Reminder</mj-title>
-    <mj-preview>TaskCurrent Demo Reminder</mj-preview>
+    <mj-title>TaskCurrent Demo Request Confirmation</mj-title>
+    <mj-preview>TaskCurrent Demo Request Confirmation</mj-preview>
     <mj-include path="./styles.mjml" />
     <mj-style>
       @media (max-width: 479px) {
@@ -21,7 +21,7 @@
       <mj-section mj-class="body-section" padding="24px 24px 0" text-align="left">
         <mj-column width="100%">
           <mj-text mj-class="pill-text" padding="0">
-            <span class="pill pill-upcoming" ><img class="pill-icon" src="https://res.cloudinary.com/wm6ofka9/image/upload/v1791801515/icon_clock_amber2x.png" width="16" height="16" alt="" />Coming up</span>
+            <span class="pill" ><img class="pill-icon" src="https://res.cloudinary.com/wm6ofka9/image/upload/v1791765335/Icon_check_brand2x.png" width="16" height="16" alt="" />Request received</span>
           </mj-text>
         </mj-column>
       </mj-section>
@@ -29,46 +29,53 @@
       <mj-section mj-class="body-section" padding="16px 24px 0">
         <mj-column width="100%">
           <mj-text mj-class="headline" padding="0">
-            Your demo is coming up. 
-          </mj-text>–-
-        </mj-column>
-      </mj-section>
-
-      <!-- Schedule card: reusable; change month/day/title/meta lines per variation -->
-      <mj-section mj-class="body-section" padding="16px 24px 0">
-        <mj-column mj-class="schedule-card" width="100%">
-          <mj-table padding="16px" cellpadding="0" cellspacing="0" width="100%">
-            <tr>
-              <td width="80" valign="middle" style="width:80px;padding:0 16px 0 0;">
-                <table class="schedule-badge" role="presentation" cellpadding="0" cellspacing="0" width="64" style="width:64px;border:1px solid #E4E9F0;border-radius:12px;border-collapse:separate;">
-                  <tr><td class="schedule-month" style="background-color:#5267FF;border-radius:11px 11px 0 0;">Oct</td></tr>
-                  <tr><td class="schedule-day">13</td></tr>
-                </table>
-              </td>
-              <td valign="middle">
-                <div class="schedule-title">Tuesday, October 13</div>
-                <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td class="schedule-icon" width="24" valign="middle" style="width:24px;"><img src="https://res.cloudinary.com/wm6ofka9/image/upload/v1791802267/icon_card_clock2x.png" alt="" width="14" height="22"></td><td class="schedule-meta" valign="middle">2:00 PM ET · 30 minutes</td></tr></table>
-                <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td class="schedule-icon" width="24" valign="middle" style="width:24px;"><img src="https://res.cloudinary.com/wm6ofka9/image/upload/v1791802267/icon_card_calendar2x.png" alt="" width="14" height="22"></td><td class="schedule-meta" valign="middle">Video call with the TaskCurrent team</td></tr></table>
-              </td>
-            </tr>
-          </mj-table>
+            We received your demo request.
+          </mj-text>
         </mj-column>
       </mj-section>
 
       <mj-section mj-class="body-section" padding="16px 24px">
         <mj-column width="100%">
           <mj-text mj-class="body-text greeting" padding="0 0 16px">Hi <span class="var">There</span>,</mj-text>
-          <mj-text mj-class="body-text" padding="0 0 16px">We’re looking forward to showing you TaskCurrent.</mj-text>
+          <mj-text mj-class="body-text" padding="0 0 16px">Thanks for requesting a TaskCurrent demo.</mj-text>
+          <mj-text mj-class="body-text" padding="0 0 16px">We’ll use the time to learn a little about your current workflow and show where TaskCurrent could remove repetitive steps.</mj-text>
         </mj-column>
       </mj-section>
 
       <mj-section mj-class="body-section" padding="8px 24px">
-        <mj-column mj-class="steps-panel" background-color="#EEF0FF" width="100%">
-          <mj-text mj-class="steps-heading color-brand" text-transform="uppercase" font-weight="600" padding="0 0 16px">Before we meet</mj-text>
+        <mj-column mj-class="steps-panel" width="100%">
+          <mj-text mj-class="steps-heading" text-transform="uppercase" font-weight="600" padding="0 0 16px">What we’ll cover</mj-text>
           <mj-table padding="0" cellpadding="0" cellspacing="0" width="100%">
             <tr>
-              <td valign="middle" style="padding:0 0 16px 0;">
-                <div class="step-title">If there’s a specific workflow you’d like to discuss, have it in mind, we can use it as an example during the demo.</div>
+              <td width="40" valign="middle" style="width:40px;padding:0 0 16px 0;border-bottom:1px solid #E4E7EC;">
+                <div class="step-num">01</div>
+              </td>
+              <td valign="middle" style="padding:0 0 16px 0;border-bottom:1px solid #E4E7EC;">
+                <div class="step-title">Your current process</div>
+              </td>
+            </tr>
+            <tr>
+              <td width="40" valign="middle" style="width:40px;padding:16px 0 16px 0;border-bottom:1px solid #E4E7EC;">
+                <div class="step-num">02</div>
+              </td>
+              <td valign="middle" style="padding:16px 0 16px 0;border-bottom:1px solid #E4E7EC;">
+                <div class="step-title">Where automation could save time</div>
+              </td>
+            </tr>
+            <tr>
+              <td width="40" valign="middle" style="width:40px;padding:16px 0 16px 0;border-bottom:1px solid #E4E7EC;">
+                <div class="step-num">03</div>
+              </td>
+              <td valign="middle" style="padding:16px 0 16px 0;border-bottom:1px solid #E4E7EC;">
+                <div class="step-title">How TaskCurrent workflows are built</div>
+              </td>
+            </tr>
+            <tr>
+              <td width="40" valign="middle" style="width:40px;padding:16px 0 0 0;">
+                <div class="step-num">04</div>
+              </td>
+              <td valign="middle" style="padding:16px 0 0 0;">
+                <div class="step-title">How tracking and reporting work</div>
               </td>
             </tr>
           </mj-table>
@@ -77,18 +84,15 @@
       <mj-section>
         <mj-column width="100%">
            <mj-text mj-class="body-text">
-            Not sure what to bring? Teams often start with how new inquiries get answered, how appointments get confirmed, or what happens after a new customer signs.
+            Someone from our team will follow up by email to find a time that works for you. In the meantime, here’s a closer look at what TaskCurrent does.
            </mj-text>
         </mj-column>
       </mj-section>
 
       <!-- CTAs: columns stack on mobile -->
       <mj-section mj-class="body-section" padding="24px 24px 8px" text-align="left">
-        <mj-column width="208px" padding-bottom="8px">
-          <mj-button mj-class="btn-primary" align="left" padding="0" css-class="cta" href="taskcurrent.vercel.app/?utm_campaign=demo_reminder&utm_content=primary_cta">View Demo Details</mj-button>
-        </mj-column>
-        <mj-column width="208px" padding-bottom="8px">
-          <mj-button mj-class="btn-link" align="left" padding="0" css-class="cta" href="taskcurrent.vercel.app/?utm_content=secondary_cta">Need to reschedule?</mj-button>
+        <mj-column width="308px" padding-bottom="8px">
+          <mj-button mj-class="btn-primary" align="left" padding="0" css-class="cta" href="taskcurrent.vercel.app/?utm_source=taskcurrent_email&utm_medium=email&utm_campaign=early_access_confirmation&utm_content=primary_cta">Explore TaskCurrent Features</mj-button>
         </mj-column>
       </mj-section>
 

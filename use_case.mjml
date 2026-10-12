@@ -11,7 +11,7 @@
     </mj-style>
   </mj-head>
 
-  <mj-body background-color="#eef2f5">
+  <mj-body css-class="page" background-color="#eef2f5">
     <!-- 2. Pull in your Reusable Header -->
     <mj-include path="./components/header/header.mjml" />
 

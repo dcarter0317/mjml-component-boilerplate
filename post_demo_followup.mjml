@@ -1,0 +1,101 @@
+<mjml>
+  <mj-head>
+    <mj-title>TaskCurrent Demo Request Confirmation</mj-title>
+    <mj-preview>TaskCurrent Demo Request Confirmation</mj-preview>
+    <mj-include path="./styles.mjml" />
+    <mj-style>
+      @media (max-width: 479px) {
+        td.cta { text-align: center !important; }
+        td.cta > table { margin: 0 auto !important; }
+        .steps-col-divider > table > tbody > tr > td { border-right: 0 !important; border-bottom: 1px solid #E4E9F0 !important; }
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body css-class="page" background-color="#eef2f5">
+    <!-- 2. Pull in your Reusable Header -->
+    <mj-include path="./components/header/header.mjml" />
+
+    <!-- 3. Main Email Body Content -->
+    <mj-wrapper mj-class="card">
+      <!-- Pill element -->
+     <mj-section mj-class="body-section" padding="24px 24px 0" text-align="left">
+        <mj-column width="100%">
+          <mj-text mj-class="eyebrow-text" color="#5267FF" padding="0">
+            Demo recap
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section mj-class="body-section" padding="16px 24px 0">
+        <mj-column width="100%">
+          <mj-text mj-class="headline" padding="0">
+            Thanks for taking a look at TaskCurrent.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section mj-class="body-section" padding="16px 24px">
+        <mj-column width="100%">
+          <mj-text mj-class="body-text greeting" padding="0 0 16px">Hi <span class="var">There</span>,</mj-text>
+          <mj-text mj-class="body-text" padding="0 0 16px">Thanks for spending some time with TaskCurrent.</mj-text>
+          <mj-text mj-class="body-text" padding="0 0 16px"></mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section mj-class="body-section" padding="16px 24px 0">
+        <mj-column width="100%">
+          <mj-text mj-class="section-header" font-weight="600" color="#101828" padding="0 0 16px 0">
+            Where TaskCurrent could help
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-wrapper mj-class="body-section" padding="8px 24px">
+        <mj-section css-class="steps-grid" background-color="#ffffff" border="1px solid #E4E9F0" border-radius="16px" padding="0">
+          <mj-column width="33.33%" css-class="steps-col steps-col-divider" padding="20px" border-right="1px solid #E4E9F0">
+            <mj-image src="https://res.cloudinary.com/wm6ofka9/image/upload/v1791809962/icon_link_demo_recap2x.png" alt="" width="40px" height="40px" align="left" padding="0 0 8px 0" />
+            <mj-text css-class="steps-label-cyan" font-size="12px" line-height="18px" font-weight="600" text-transform="uppercase" letter-spacing="0.8px" color="#08677D" padding="0 0 4px 0">01 · Capture</mj-text>
+            <mj-text css-class="steps-col-text" font-size="15px" line-height="22px" font-weight="400" color="#101828" padding="0">Bring the lead into TaskCurrent.</mj-text>
+          </mj-column>
+          <mj-column width="33.33%" css-class="steps-col steps-col-divider" padding="20px" border-right="1px solid #E4E9F0">
+            <mj-image src="https://res.cloudinary.com/wm6ofka9/image/upload/v1791809961/icon_branch_demo_recap2x.png" alt="" width="40px" height="40px" align="left" padding="0 0 8px 0" />
+            <mj-text css-class="steps-label-brand" font-size="12px" line-height="18px" font-weight="600" text-transform="uppercase" letter-spacing="0.8px" color="#5267FF" padding="0 0 4px 0">02 · Automate</mj-text>
+            <mj-text css-class="steps-col-text" font-size="15px" line-height="22px" font-weight="400" color="#101828" padding="0">Run qualification and follow-up automatically.</mj-text>
+          </mj-column>
+          <mj-column width="33.33%" css-class="steps-col" padding="20px">
+            <mj-image src="https://res.cloudinary.com/wm6ofka9/image/upload/v1791809962/icon_check_demo_recap2x.png" alt="" width="40px" height="40px" align="left" padding="0 0 8px 0" />
+            <mj-text css-class="steps-label-violet" font-size="12px" line-height="18px" font-weight="600" text-transform="uppercase" letter-spacing="0.8px" color="#6A4BE0" padding="0 0 4px 0">03 · Improve</mj-text>
+            <mj-text css-class="steps-col-text" font-size="15px" line-height="22px" font-weight="400" color="#101828" padding="0">Measure response time and conversion.</mj-text>
+          </mj-column>
+        </mj-section>
+      </mj-wrapper>
+   
+      <mj-section mj-class="body-section" padding="16px 24px">
+        <mj-column width="100%">
+           <mj-text mj-class="body-text">
+            Join early access and we’ll let you know as soon as you can try this with your own leads.
+           </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- CTAs: columns stack on mobile -->
+      <mj-section mj-class="body-section" padding="24px 24px 8px" text-align="left">
+        <mj-column width="208px" padding-bottom="8px">
+          <mj-button mj-class="btn-primary" align="left" padding="0" css-class="cta" href="taskcurrent.vercel.app/early-access?utm_source=taskcurrent_email&utm_medium=email&utm_campaign=demo_followup&utm_content=primary_cta">Join Early Access</mj-button>
+        </mj-column>
+        <mj-column width="208px" padding-bottom="8px">
+          <mj-button mj-class="btn-link" align="left" padding="0" css-class="cta" href="mailto:info@dcartdevelopment.com ">Questions? Just reply</mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section mj-class="body-section" padding="16px 24px 24px">
+        <mj-column width="100%">
+          <mj-text mj-class="body-text" padding="0 0 4px">Talk soon,</mj-text>
+          <mj-text mj-class="body-text" padding="0">The TaskCurrent team</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <!-- 4. Pull in your Reusable Footer -->
+    <mj-include path="./components/footer/footer.mjml" />
+  </mj-body>
+</mjml>

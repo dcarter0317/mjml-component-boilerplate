@@ -11,7 +11,7 @@
     </mj-style>
   </mj-head>
 
-  <mj-body background-color="#eef2f5">
+  <mj-body css-class="page" background-color="#eef2f5">
     <!-- 2. Pull in your Reusable Header -->
     <mj-include path="./components/header/header.mjml" />
 
@@ -21,7 +21,7 @@
       <mj-section mj-class="body-section" padding="24px 24px 0" text-align="left">
         <mj-column width="100%">
           <mj-text mj-class="pill-text" padding="0">
-            <span class="pill"><img class="pill-icon" src="https://res.cloudinary.com/wm6ofka9/image/upload/v1791569130/icon-check2x.png" width="16" height="16" alt="" />Signup confirmed</span>
+            <span class="pill pill-success"><img class="pill-icon" src="https://res.cloudinary.com/wm6ofka9/image/upload/v1791569130/icon-check2x.png" width="16" height="16" alt="" />Signup confirmed</span>
           </mj-text>
         </mj-column>
       </mj-section>
@@ -90,6 +90,6 @@
       </mj-section>
     </mj-wrapper>
     <!-- 4. Pull in your Reusable Footer -->
-    <mj-include path="./components/footer/footer.mjml" />
+    <mj-include path="./components/footer/legal_footer.mjml" />
   </mj-body>
 </mjml>

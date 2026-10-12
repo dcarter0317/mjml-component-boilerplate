@@ -9,6 +9,8 @@
       :root { color-scheme: light dark; supported-color-schemes: light dark; }
       @media (prefers-color-scheme: dark) {
         .card, .card > table, .card > div, .card > div > table, .card > div > table > tbody > tr > td { background-color: #151F35 !important; }
+        .card, .card > table, .card > div, .card > div > table { background-color: transparent !important; }
+        .card { overflow: visible !important; }
         body, .page, .page > div { background-color: #101828 !important; }
         .card { border-color: #22304D !important; }
         .body-text div { color: #98A2B3 !important; }
@@ -30,6 +32,7 @@
         .steps-label-violet div, .violet-text { color: #B7A6FF !important; }
         .steps-grid, .steps-grid > table, .steps-grid > div, .steps-grid > div > table, .steps-grid > div > table > tbody > tr > td { background-color: #151F35 !important; border-color: #22304D !important; }
         .steps-grid table { border-color: #22304D !important; }
+        .steps-grid { overflow: visible !important; }
         .schedule-card, .schedule-card > table, .schedule-card > table > tbody > tr > td { background-color: #1B2745 !important; border-color: #22304D !important; }
         .steps-panel td[style*="border-bottom"] { border-bottom-color: #22304D !important; }
         .headline div, .subheading div { color: #F2F4F7 !important; }
